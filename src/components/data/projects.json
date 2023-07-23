@@ -1,0 +1,23 @@
+[
+    {
+        "name": "wucc webscraping",
+        "description": "i did this thing w frisbee",
+        "tech": ["python", "beautifulsoup", "requests", "pandas"],
+        "link": "https://github.com/liliwilson/wucc2022-webscrape",
+        "image": "wucc.png"
+    },
+
+    {
+        "name": "ridetogether",
+        "description": "cool puzzle app",
+        "tech": ["swift"],
+        "link": "tbd"
+    },
+
+    {
+        "name": "misinformation",
+        "description": "#research",
+        "tech": ["python", "scikit-learn", "pandas", "numpy", "Twitter API"],
+        "link": "tbd"
+    }
+]

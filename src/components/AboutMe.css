@@ -1,0 +1,42 @@
+.aboutme-container {
+    width: 60vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+.about-text a {
+    text-decoration: none;
+    color: white;
+    background:
+      linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(
+        to right,
+        hotpink,
+        hotpink
+    );
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.about-text a:hover {
+    background-size: 0 2px, 100% 2px;
+}
+
+.platforms a:hover {
+    opacity: 0.8;
+}
+  

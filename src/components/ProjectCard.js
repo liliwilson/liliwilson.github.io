@@ -1,68 +1,75 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Card,
-  CardActions,
   CardContent,
-  CardMedia,
-  Grid,
+  CardCover,
+  CardActions,
   Typography,
-} from "@mui/material";
+} from "@mui/joy";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { styled } from "@mui/material/styles";
+import BookmarksIcon from '@mui/icons-material/Bookmarks';
+
 import "./ProjectCard.css";
 
-const Img = styled("img")({
-  margin: "auto",
-  display: "block",
-  maxWidth: "100%",
-  maxHeight: "100%",
-});
-
+// props expected:
+// name: string
+// description: string
+// list of technology: list of strings
+// image: filepath
 const ProjectCard = (props) => {
-  // props expected:
-  // name: string
-  // description: string
-  // list of technology: list of strings
-  // image: filepath
+  const [flipped, setFlipped] = useState(false); // if true, cover up, else, description
+
+  const toggleFlip = () => {
+    setFlipped(!flipped);
+  };
 
   return (
-    <Card sx={{ minWidth: 275 }} className="card">
-      <CardContent>
-        <Grid container spacing={2} className="card-container">
-          <Grid item xs={8}>
-            <Img src={props.image} />
-          </Grid>
-          <Grid item xs={4}>
-            <Typography variant="h5" component="div">
-              {props.name}
-            </Typography>
-            
-            {/* <Typography variant="body2">{props.description}</Typography> */}
-          </Grid>
-        </Grid>
-
-        <Typography
-              sx={{ fontSize: 14, m: "0.5rem 0 0 0" }}
-              color="text.secondary"
-            >
-              {props.tech.join(" • ")}
-          </Typography>
-      </CardContent>
-
-      {/* {props.image && (
-        <CardMedia
-          sx={{ height: 140 }}
-          image={props.image}
-          title="project image"
+    <div onClick={toggleFlip} className={`card ${flipped ? "flip" : ""}`}>
+      <Card
+        sx={{ height: "25vh", position: "absolute", width: "90%" }}
+        className={`card-front`}
+      >
+        <CardCover>
+          {props.image && <img src={`projects/${props.image}`} loading="lazy" alt="" />}
+        </CardCover>
+        <CardCover
+          sx={{
+            background:
+              "linear-gradient(to top, rgba(255,255,255,.9), rgba(255,255,255,0) 200px), linear-gradient(to top, rgba(255,255,255,0.9), rgba(255,255,255,0) 200px)",
+          }}
         />
-      )} */}
+        <CardContent sx={{ justifyContent: "flex-end" }}>
+          <Typography level="h2" fontSize="lg" textColor="#000" mb={1}>
+            {props.name}
+          </Typography>
+          <Typography textColor="neutral.500" fontSize="xs">
+            {props.tech.join(" • ")}
+          </Typography>
+        </CardContent>
+      </Card>
 
-      {/* <CardActions>
-        <a href={props.link} rel="noreferrer" target="_blank">
-          <GitHubIcon color="primary" />
-        </a>
-      </CardActions> */}
-    </Card>
+      <Card sx={{ height: "25vh", width: "90%", overflow: 'auto'}} className={`card-back`}>
+        <CardContent sx={{ justifyContent: "center" }}>
+          <Typography fontSize="sm" textColor="#000" mb={1}>
+            {props.description}
+          </Typography>
+        </CardContent>
+
+        {props.link && (
+          <CardActions sx={{ justifyContent: "center" }}>
+            <a href={props.link} rel="noreferrer" target="_blank">
+              <GitHubIcon color="secondary" />
+            </a>
+            {props.paper && (
+            <a href={props.paper} rel="noreferrer" target="_blank">
+              <BookmarksIcon color="secondary" />
+            </a>
+        )}
+          </CardActions>
+        )}
+      </Card>
+    </div>
   );
 };
 

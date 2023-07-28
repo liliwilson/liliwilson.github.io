@@ -1,23 +1,40 @@
 [
     {
-        "name": "wucc webscraping",
-        "description": "i did this thing w frisbee",
-        "tech": ["python", "beautifulsoup", "requests", "pandas"],
+        "name": "wfdf power duos",
+        "description": "after realizing that the world flying disc federation (WFDF) tournament websites are very nicely formatted for webscraping, i set out to gather my own new ultimate frisbee stats.",
+        "tech": ["python", "beautifulsoup", "requests", "pandas", "parallelization"],
         "link": "https://github.com/liliwilson/wucc2022-webscrape",
         "image": "wucc.png"
     },
 
     {
         "name": "ridetogether",
-        "description": "cool puzzle app",
+        "description": "a 6-level puzzle game i made for a friend's birthday! puzzles designed by me, app developed by me, and art done by my lovely younger sister.",
         "tech": ["swift"],
-        "link": "tbd"
+        "link": "https://github.com/liliwilson/RideTogether-PublicVersion",
+        "image": "ridetgt.png"
     },
 
     {
         "name": "misinformation",
-        "description": "#research",
-        "tech": ["python", "scikit-learn", "pandas", "numpy", "Twitter API"],
-        "link": "tbd"
+        "description": "in the early months of the pandemic, a friend and i set out to analyze the role that students on twitter played in the spread of covid-19 misinformation.",
+        "tech": ["python", "scikit-learn", "pandas", "numpy", "twitter api"],
+        "link": "https://github.com/christopherwun/twitter-student-classifier",
+        "paper": "https://aclanthology.org/2020.aacl-srw.5/",
+        "image": "misinfo.png"
+    },
+
+    {
+        "name": "dragon link",
+        "description": "a better version of when2meet that eases group scheduling with google calendar integration, built for mit's 2022 web.lab competition.",
+        "tech": ["react", "express", "mongodb", "node", "google calendar api"],
+        "image": "dragonlink.png"
+    },
+
+    {
+        "name": "food security box",
+        "description": "store dorm food safely with this elaborate security system, made for 6.08 embedded systems spring 2022",
+        "tech": ["arduino", "esp32", "c", "laser cutting"],
+        "image": "608.png"
     }
 ]

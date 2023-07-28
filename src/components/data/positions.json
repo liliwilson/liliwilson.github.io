@@ -1,0 +1,20 @@
+[
+    {
+        "position": "undergraduate researcher",
+        "place": "madrylab",
+        "description": "beep boop machine learning",
+        "logo": "madrylab.png"
+    },
+    {
+        "position": "co-director",
+        "place": "hackmit",
+        "description": "sold my soul to run a hackathon",
+        "logo": "hackicon.png"
+    },
+    {
+        "position": "swe intern",
+        "place": "vividly",
+        "description": "code code code",
+        "logo": "vividly.png"
+    }
+]

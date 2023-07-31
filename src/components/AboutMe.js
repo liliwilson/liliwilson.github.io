@@ -14,13 +14,13 @@ const AboutMe = () => {
         <Grid item xs={2} />
       </Hidden>
       <Grid item md={3} xs={8}>
-        <img src={"lili.jpg"} alt="" width="100%" padding="auto" />
+        <img src={process.env.PUBLIC_URL + "/lili.jpg"} alt="" width="100%" padding="auto" />
       </Grid>
       <Hidden smUp>
         <Grid item xs={2} />
       </Hidden>
       <Grid item sm={9} xs={12} className="about-text" align="left">
-        I'm a second-year computer science student at MIT. I'm interested in
+        I'm a rising third-year computer science student at MIT. I'm interested in
         accessible machine learning, computer systems, and AI ethics + policy. I
         also love to teach!
         <br />

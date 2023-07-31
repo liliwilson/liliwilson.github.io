@@ -12,7 +12,7 @@ const Position = (props) => {
     <Card orientation="horizontal" sx={{ width: "90%"}}>
       <CardOverflow sx={{ margin: "0" }}>
         <AspectRatio ratio="1" sx={{ width: 80 }}>
-          <img src={`positions/${props.logo}`} loading="lazy" alt="" />
+          <img src={process.env.PUBLIC_URL + `/positions/${props.logo}`} loading="lazy" alt="" />
         </AspectRatio>
       </CardOverflow>
       <CardContent align="left">

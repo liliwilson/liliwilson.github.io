@@ -16,7 +16,7 @@
     },
 
     {
-        "name": "misinformation",
+        "name": "students and covid misinformation",
         "description": "in the early months of the pandemic, a friend and i set out to analyze the role that students on twitter played in the spread of covid-19 misinformation.",
         "tech": ["python", "scikit-learn", "pandas", "numpy", "twitter api"],
         "link": "https://github.com/christopherwun/twitter-student-classifier",

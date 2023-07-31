@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
         className={`card-front`}
       >
         <CardCover>
-          {props.image && <img src={`projects/${props.image}`} loading="lazy" alt="" />}
+          {props.image && <img src={process.env.PUBLIC_URL + `/projects/${props.image}`} loading="lazy" alt="" />}
         </CardCover>
         <CardCover
           sx={{

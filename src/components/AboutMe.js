@@ -4,9 +4,9 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <Grid container spacing={4} color="white" height="100%" overflow="auto">
+    <Grid container spacing={4} color="white" height="100%" overflow="auto" >
       <Grid item xs={12}>
-        <Typography variant="h3" fontSize="md" align="left">
+        <Typography variant="h3" fontFamily="Rubik" fontSize="md" align="left">
           Hi! I'm <strong>Lili Wilson</strong>...
         </Typography>
       </Grid>

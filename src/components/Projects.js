@@ -16,8 +16,8 @@ const Projects = () => {
   return (
     <Grid container spacing={4} color="white" height="100%" overflow="auto">
       <Grid item xs={12}>
-        <Typography variant="h4" fontSize="md" align="left">
-          and here are some things I've made...
+        <Typography variant="h4" fontFamily="Rubik" fontSize="md" align="left">
+          and here are some things i've made...
         </Typography>
       </Grid>
       {projectCards}

@@ -2,7 +2,7 @@
     {
         "name": "wfdf power duos",
         "description": "after realizing that the world flying disc federation (WFDF) tournament websites are very nicely formatted for webscraping, i set out to gather my own new ultimate frisbee stats.",
-        "tech": ["python", "beautifulsoup", "requests", "pandas", "parallelization"],
+        "tech": ["python", "beautifulsoup", "requests", "pandas", "multiprocessing"],
         "link": "https://github.com/liliwilson/wucc2022-webscrape",
         "image": "wucc.png"
     },

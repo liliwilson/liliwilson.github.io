@@ -2,19 +2,19 @@
     {
         "position": "undergraduate researcher",
         "place": "madrylab",
-        "description": "beep boop machine learning",
+        "description": "studying robustness of fine-tuned models with pytorch.",
         "logo": "madrylab.png"
     },
     {
         "position": "co-director",
         "place": "hackmit",
-        "description": "it takes a lot to run a hackathon!",
+        "description": "pushing mit's largest undergraduate hackathon to its next level each year!",
         "logo": "hackicon.png"
     },
     {
         "position": "swe intern",
         "place": "vividly",
-        "description": "code code code",
+        "description": "rebuilt key modules using typescript, django, postgresql, and graphql to make them more robust and reliable.",
         "logo": "vividly.png"
     }
 ]

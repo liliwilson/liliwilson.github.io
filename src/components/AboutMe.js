@@ -6,10 +6,13 @@ const AboutMe = () => {
   return (
     <Grid container spacing={4} color="white" height="100%" overflow="auto" >
       <Grid item xs={12}>
-        <Typography variant="h3" fontFamily="Rubik" fontSize="md" align="left">
+        <Typography variant="h3" fontFamily="Rubik" fontSize="lg" align="left">
           Hi! I'm <strong>Lili Wilson</strong>...
         </Typography>
       </Grid>
+      <Hidden smDown>
+        <Grid item xs={1} />
+      </Hidden>
       <Hidden smUp>
         <Grid item xs={2} />
       </Hidden>
@@ -19,7 +22,7 @@ const AboutMe = () => {
       <Hidden smUp>
         <Grid item xs={2} />
       </Hidden>
-      <Grid item sm={9} xs={12} className="about-text" align="left">
+      <Grid item sm={6} xs={12} className="about-text" align="left" fontSize="1.1rem">
         I'm a rising third-year computer science student at MIT. I'm interested in
         accessible machine learning, computer systems, and AI ethics + policy. I
         also love to teach!
@@ -65,6 +68,9 @@ const AboutMe = () => {
         <br />
         Feel free to reach out: lmwilson [at] mit [dot] edu
       </Grid>
+      <Hidden smDown>
+        <Grid item xs={2} />
+      </Hidden>
       <Grid item />
     </Grid>
   );

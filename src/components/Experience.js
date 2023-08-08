@@ -17,7 +17,7 @@ const Experience = () => {
     <Grid container spacing={2} >
       <Grid item xs={12}>
         <Typography variant="h4" fontSize="md" fontFamily="Rubik"  align="left" color="white">
-          here are some things i've done...
+          here are some things i've done recently...
         </Typography>
       </Grid>
       {positionCards}

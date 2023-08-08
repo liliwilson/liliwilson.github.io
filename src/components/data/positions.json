@@ -3,18 +3,21 @@
         "position": "undergraduate researcher",
         "place": "madrylab",
         "description": "studying robustness of fine-tuned models with pytorch.",
-        "logo": "madrylab.png"
+        "logo": "madrylab.png",
+        "link": "https://madry-lab.ml/"
     },
     {
         "position": "co-director",
         "place": "hackmit",
         "description": "pushing mit's largest undergraduate hackathon to its next level each year!",
-        "logo": "hackicon.png"
+        "logo": "hackicon.png",
+        "link": "https://hackmit.org/"
     },
     {
         "position": "swe intern",
         "place": "vividly",
         "description": "rebuilt key modules using typescript, django, postgresql, and graphql to make them more robust and reliable.",
-        "logo": "vividly.png"
+        "logo": "vividly.png",
+        "link": "https://www.govividly.com/"
     }
 ]

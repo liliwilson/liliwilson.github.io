@@ -23,8 +23,8 @@ const AboutMe = () => {
         <Grid item xs={2} />
       </Hidden>
       <Grid item sm={6} xs={12} className="about-text" align="left" fontSize="1.1rem">
-        I'm a rising third-year computer science student at MIT. I'm interested in
-        accessible machine learning, computer systems, and AI ethics + policy. I
+        I'm a third-year computer science student at MIT. I'm interested in
+        computer systems, networking, security, and CS ethics + policy. I
         also love to teach!
         <br />
         <br />

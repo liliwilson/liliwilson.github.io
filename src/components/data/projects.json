@@ -22,6 +22,15 @@
   },
 
   {
+    "name": "first crossword puzzle",
+    "description": "i wrote a themed crossword puzzle! click the github icon below to play the crossword, and the paper icon to read about the process of creating it.",
+    "tech": ["love of wordplay"],
+    "link": "https://downforacross.com/beta/play/31972",
+    "paper": "https://liliwilson.github.io/first-crossword",
+    "image": "firstcrossword.png"
+  },
+
+  {
     "name": "food security box",
     "description": "store dorm food safely with this elaborate security system, made for 6.08 embedded systems spring 2022",
     "tech": ["arduino", "esp32", "c", "laser cutting"],

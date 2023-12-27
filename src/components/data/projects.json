@@ -1,4 +1,20 @@
 [
+  {"name": "MUNCH network coding",
+  "description": "final project for 6.185 computer systems and society fall 2023. we built a simulation platform for evaluating potential deployment of network coding in wireless community mesh networks.",
+  "tech": ["python","wireless networks","network coding", "pytest", "pydoc"],
+  "link": "https://github.com/liliwilson/munch-mesh-networking",
+  "image": "nycmesh.png"
+  },
+
+  {
+    "name": "first crossword puzzle",
+    "description": "i wrote a themed crossword puzzle! click the github icon below to play the crossword, and the bookmark icon to read about the process of creating it.",
+    "tech": ["love of wordplay"],
+    "link": "https://downforacross.com/beta/play/31972",
+    "paper": "https://liliwilson.github.io/first-crossword",
+    "image": "firstcrossword.png"
+  },
+
   {
     "name": "wfdf power duos",
     "description": "after realizing that the world flying disc federation (WFDF) tournament websites are very nicely formatted for webscraping, i set out to gather my own new ultimate frisbee stats.",
@@ -19,15 +35,6 @@
     "tech": ["slack api", "javascript"],
     "link": "https://github.com/liliwilson/siegebot",
     "image": "siegebot.png"
-  },
-
-  {
-    "name": "first crossword puzzle",
-    "description": "i wrote a themed crossword puzzle! click the github icon below to play the crossword, and the bookmark icon to read about the process of creating it.",
-    "tech": ["love of wordplay"],
-    "link": "https://downforacross.com/beta/play/31972",
-    "paper": "https://liliwilson.github.io/first-crossword",
-    "image": "firstcrossword.png"
   },
 
   {

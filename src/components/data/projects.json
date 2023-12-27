@@ -15,6 +15,16 @@
     "image": "firstcrossword.png"
   },
 
+
+
+  {
+    "name": "siegebot",
+    "description": "a slackbot for boston siege ultimate! sends prompts to a channel in the slack 4x randomly per week, to which people respond with pictures (slightly inspired by BeReal).",
+    "tech": ["slack api", "javascript"],
+    "link": "https://github.com/liliwilson/siegebot",
+    "image": "siegebot.png"
+  },
+
   {
     "name": "wfdf power duos",
     "description": "after realizing that the world flying disc federation (WFDF) tournament websites are very nicely formatted for webscraping, i set out to gather my own new ultimate frisbee stats.",
@@ -27,14 +37,6 @@
     ],
     "link": "https://github.com/liliwilson/wucc2022-webscrape",
     "image": "wucc.png"
-  },
-
-  {
-    "name": "siegebot",
-    "description": "a slackbot for boston siege ultimate! sends prompts to a channel in the slack 4x randomly per week, to which people respond with pictures (slightly inspired by BeReal).",
-    "tech": ["slack api", "javascript"],
-    "link": "https://github.com/liliwilson/siegebot",
-    "image": "siegebot.png"
   },
 
   {

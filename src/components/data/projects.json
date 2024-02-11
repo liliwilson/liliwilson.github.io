@@ -1,9 +1,17 @@
 [
+  
   {"name": "MUNCH network coding",
   "description": "final project for 6.185 computer systems and society fall 2023. we built a simulation platform for evaluating potential deployment of network coding in wireless community mesh networks.",
   "tech": ["python","wireless networks","network coding", "pytest"],
   "link": "https://github.com/liliwilson/munch-mesh-networking",
   "image": "nycmesh.png"
+  },
+
+  {"name": "informatik teaching materials",
+  "description": "lessons developed for 9th and 11th graders and taught at a gymnasium in Nuremberg, Germany, for MIT's Global Teaching Labs program, january 2024.",
+  "tech": ["databases", "encryption", "password security"],
+  "link": "https://github.com/liliwilson/WG_teaching_materials",
+  "image": "informatik.png"
   },
 
   {
